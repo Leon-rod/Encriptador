@@ -42,7 +42,6 @@ h1 {
     outline: none;
     border: none;
     background-color: rgb(174, 172, 169);
-    /* text-align: center; */
     font-size: 18px;
 }
 .buttons {
@@ -56,11 +55,12 @@ button {
     outline: none;
     border: none;
     padding: 13px;
+    width: 125px;
     border-radius: 15px;
     background-color: rgb(117, 117, 116);
     transition: background-color 0.4s;
     font-size: 16px;
-    box-shadow: 0 0 13px 7px rgba(103, 100, 100, 0.667);
+    box-shadow: 0 0 10px 7px rgba(103, 100, 100, 0.667);
     transition: box-shadow 0.4s;
 }
 button:hover {
