@@ -136,9 +136,9 @@ button:hover {
 }
 
 @media screen and (max-width:800px) {
-    body {
+    /* body {
         overflow-x: hidden;
-    }
+    } */
     .first-section {
         height: initial;
     }
