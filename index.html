@@ -1,12 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Encriptador de Texto</title>
 </head>
 <body>
-    <h1>Encriptador de Texto - Challenge</h1>
+    <section class="first-section">
+        <h1>Encriptador de Texto</h1>
+        <h2> - Challenge</h2>
+        <div class="container">
+            <div class="inputText">
+                <textarea placeholder="...ingrese el texto que desa encriptar/desencriptar" class="first-textarea" spellcheck="false"></textarea>
+                <div class="buttons">
+                    <button class="encrypt">Encriptar</button>
+                    <button class="decrypt">Desencriptar</button>
+                </div>
+            </div>
+            <div class="outputText">
+                <textarea placeholder="..." readonly="true" class="second-textarea" spellcheck="false"></textarea>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+
+    <script src="./code.js"></script>
 </body>
 </html>
