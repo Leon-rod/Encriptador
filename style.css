@@ -3,7 +3,7 @@ html {
     box-sizing: border-box;
 }
 body {
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 body, html, p, textarea, h1 {
     margin: 0;
